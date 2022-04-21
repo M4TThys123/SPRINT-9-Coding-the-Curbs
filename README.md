@@ -11,7 +11,7 @@
   * [Licentie](#licentie)
 
 ## Beschrijving
-![Wireflow](https://github.com/M4TThys123/SPRINT-8-Coding-the-Curbs/blob/main/assets/Card%20page.png)
+![Wireflow](https://github.com/M4TThys123/SPRINT-9-Coding-the-Curbs/blob/main/sprint9.JPG)
 [🌐 Live Versie](https://m4tthys123.github.io/keep-users-in-control-coding-the-curbs/)
 
 
