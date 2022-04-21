@@ -1,4 +1,4 @@
-# 🚀 Visitekaart v2
+# 🚀 Coding the Curbs V2 - Serverside
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 
 ## 📙 Inhoudsopgave
@@ -41,6 +41,8 @@ Installeren met de Terminal
 ```
 git clone https://github.com/M4TThys123/SPRINT-9-Coding-the-Curbs.git
 cd SPRINT-9-Coding-the-Curbs
+
+npm install
 ```
 
 Installeren met SSH
