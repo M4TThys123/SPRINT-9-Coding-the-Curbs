@@ -1,0 +1,214 @@
+ /*=============== GOOGLE FONTS ===============*/
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+ /*=============== VARIABLES CSS ===============*/
+ :root {
+   /*========== Colors ==========*/
+   /*Color mode HSL(hue, saturation, lightness)*/
+   --wit: #ffffff;
+   --blauw: #524dd0;
+   --cyaan: #00ffec;
+   --paars: #84389e;
+   --gradient-1: #524dd0;
+   --gradient-2: #84389e;
+   --container-color: #F6F6F6;
+ 
+   /*========== Font and typography ==========*/
+   /*.5rem = 8px | 1rem = 16px ...*/
+   --body-font: "Poppins", sans-serif;
+   --big-font-size: 2rem;
+   --h1-font-size: 1.5rem;
+   --h2-font-size: 1.25rem;
+   --h3-font-size: 1rem;
+   --normal-font-size: 0.938rem;
+   --small-font-size: 0.813rem;
+   --smaller-font-size: 0.75rem;
+ 
+   /*========== Font weight ==========*/
+   --font-medium: 500;
+   --font-semi-bold: 600;
+ 
+   /*========== Margenes Bottom ==========*/
+   /*.5rem = 8px | 1rem = 16px ...*/
+   --mb-0-5: 0.5rem;
+   --mb-0-75: 0.75rem;
+   --mb-1: 1rem;
+   --mb-1-5: 1.5rem;
+   --mb-2: 2rem;
+   --mb-2-5: 2.5rem;
+ 
+   /*========== z index ==========*/
+   --z-tooltip: 10;
+   --z-fixed: 100;
+ }
+ 
+ /* Responsive typography */
+ @media screen and (min-width: 968px) {
+   :root {
+     --big-font-size: 3.5rem;
+     --h1-font-size: 2.25rem;
+     --h2-font-size: 1.5rem;
+     --h3-font-size: 1.25rem;
+     --normal-font-size: 1rem;
+     --small-font-size: 0.875rem;
+     --smaller-font-size: 0.813rem;
+   }
+ }
+ 
+ /*=============== BASE ===============*/
+ * {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+ }
+ 
+ html {
+   scroll-behavior: smooth;
+ }
+ 
+ body,
+ button,
+ input,
+ textarea {
+   font-family: var(--body-font);
+   font-size: var(--normal-font-size);
+ }
+ 
+ body {
+   font-family: "", sans-serif;
+   font-weight: regular;
+   background-color: var(--container-color);
+ }
+ 
+ button {
+   cursor: pointer;
+   border: none;
+   outline: none;
+ }
+ 
+ button:hover {
+   transform: scale(1.1);
+ }
+ 
+ h1,
+ h2,
+ h3 {
+   color: var(--title-color);
+   font-weight: var(--font-semi-bold);
+ }
+ 
+ ul {
+   list-style: none;
+ }
+ 
+ a {
+   text-decoration: none;
+   color: var(--black);
+ }
+ 
+ img {
+   max-width: 100%;
+   height: auto;
+ }
+ 
+ .flex {
+   display: flex;
+ }
+ 
+ .grid {
+   display: grid;
+ }
+ 
+ /*=============== HEADER ===============*/
+ header {
+     background-color: var(--blauw);
+     height: 84px;
+     width: 100%;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+header a{
+   color: var(--container-color);
+ }
+ 
+ h1{
+   color: var(--container-color);
+   margin-left: 1em;
+   font-size: larger;
+ }
+ 
+ li{
+   margin: .5em;
+ }
+ 
+ /*========== NAV ==========*/
+ 
+ /*=============== Main ===============*/
+ main {
+   padding: 1em;
+ }
+ 
+ article{
+   max-width: 1200px;
+   margin: auto;
+ }
+ 
+ /* Card */
+ .card-wrapper{
+   margin-top: var(--mb-1-5);
+ }
+ .card{
+   border: 1px solid #c6c6c6;
+   border-radius: 2px;
+   margin-bottom: var(--mb-1-5);
+ }
+ 
+ .title{
+     margin-top: var(--mb-0-5);
+   }
+ #naam{
+   color: var(--blauw);
+   margin-bottom: var(--mb-0-5);
+ }
+ .title span{
+  margin-bottom: var(--mb-1);
+  display: flex;
+ }
+ 
+ #locatie{
+   margin-left: var(--mb-0-5);
+ }
+ 
+ 
+ #omschrijving{
+     margin-bottom: var(--mb-1);
+ }
+ 
+ .card-information li{
+     padding: 1em;
+ }
+ 
+ .card-discription{
+   padding: var(--mb-1);
+ }
+ 
+ .card-footer{
+   background-color: #524dd0;
+   width: 14em;
+   border-radius: 2em;
+   Padding: 0.7em 3em;
+   color: var(--container-color);
+   text-align: center;
+ }
+ h4{
+   margin-bottom: var(--mb-0-5);
+ }
+ 
+ /*=============== FOOTER ===============*/
+ 
+ 
+ /*=============== BREAKPOINTS ===============*/
+ /* For small devices */
+ @media (max-width: 44em) {
+ }

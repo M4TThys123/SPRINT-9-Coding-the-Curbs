@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smartzones</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<article>
+<% smartzones.forEach(function(smartzone) { %>
+<section class="card">
+        <img src="<%- smartzone.image %>" alt="">
+        <section class="card-discription">
+                    <div class="title">
+                        <h3 id="naam"><%- smartzone.name %></h3>
+                        <span>
+                            <p id="stad">smartzone.town %></p>
+                            <p id="locatie"><%- smartzone.location %></p>
+                        </span>
+                    </div>
+
+                    <p id="omschrijving"><%- smartzone.description %></p>
+
+                    <div class="card-information">
+                        <ul class="flex">
+                            <li>
+                                <h4>Grootte:</h4>
+                                <span id="grootte"><%- smartzone.size %></span>
+                            </li>
+                            <li>
+                                <h4>Gebruik:</h4>
+                                <span id="gebruik"><%- smartzone.usage %></span>
+                            </li>
+                            <li>
+                                <h4>Tijdstip:</h4>
+                                <span id="tijdstip"><%- smartzone.time %></span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="card-footer">
+                        <h4>Functie:</h4>
+                        <span id="functie"><%- smartzone.function %></span>
+                    </div>
+                </section>
+            </section>
+<% }) %>
+</article>
